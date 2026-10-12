@@ -417,6 +417,12 @@ main section[id] {
   border-color: var(--accent-line);
 }
 
+.project-card--lift:hover,
+.project-card--lift:active {
+  border-color: var(--accent);
+  box-shadow: var(--card-shadow);
+}
+
 .project-card p {
   max-width: 65ch;
 }
@@ -785,7 +791,6 @@ main section[id] {
   .project-card--lift:hover,
   .project-card--lift:active {
     transform: translateY(-2px);
-    box-shadow: var(--card-shadow);
   }
 }
 
