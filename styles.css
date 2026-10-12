@@ -412,7 +412,8 @@ main section[id] {
 }
 
 .project-card:has(.project-link):hover,
-.project-card--lift:hover {
+.project-card--lift:hover,
+.project-card--lift:active {
   border-color: var(--accent-line);
 }
 
@@ -781,7 +782,8 @@ main section[id] {
   }
 
   .project-card:has(.project-link):hover,
-  .project-card--lift:hover {
+  .project-card--lift:hover,
+  .project-card--lift:active {
     transform: translateY(-2px);
     box-shadow: var(--card-shadow);
   }
