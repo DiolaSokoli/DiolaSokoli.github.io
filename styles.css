@@ -518,6 +518,29 @@ main section[id] {
   font-weight: 650;
 }
 
+.project-link--card {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: block;
+  width: auto;
+  margin: 0;
+  font-size: 0;
+}
+
+.project-link-label {
+  position: absolute;
+  bottom: 18px;
+  left: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--accent);
+  font-size: 12px;
+  line-height: 1.4;
+  pointer-events: none;
+}
+
 .project-link::after {
   position: absolute;
   inset: 0;
@@ -945,6 +968,11 @@ main section[id] {
 
   .project-card {
     padding: 17px 15px 14px;
+  }
+
+  .project-link-label {
+    bottom: 14px;
+    left: 15px;
   }
 
   .additional-projects {
