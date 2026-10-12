@@ -567,49 +567,47 @@ main section[id] {
 .arrow-icon {
   position: relative;
   display: inline-block;
-  width: .85em;
-  height: .85em;
-  flex: 0 0 .85em;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
   color: var(--accent);
 }
 
 .arrow-icon--external::before {
   position: absolute;
-  top: 50%;
+  top: 6px;
   left: 0;
-  width: .58em;
-  border-top: 1.5px solid currentColor;
+  width: 9px;
+  border-top: 2px solid currentColor;
   content: "";
 }
 
 .arrow-icon--external::after {
   position: absolute;
-  top: calc(50% - .28em);
+  top: 3px;
   right: 0;
-  width: .48em;
-  height: .56em;
-  background: currentColor;
-  clip-path: polygon(0 0, 100% 50%, 0 100%, 22% 50%);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid currentColor;
   content: "";
 }
 
 .arrow-icon--download::before {
   position: absolute;
   top: 0;
-  left: 50%;
-  height: .52em;
-  border-left: 1.5px solid currentColor;
+  left: 6px;
+  height: 8px;
+  border-left: 2px solid currentColor;
   content: "";
 }
 
 .arrow-icon--download::after {
   position: absolute;
   bottom: 0;
-  left: calc(50% - .28em);
-  width: .56em;
-  height: .48em;
-  background: currentColor;
-  clip-path: polygon(0 0, 50% 100%, 100% 0, 72% 0, 50% 44%, 28% 0);
+  left: 2px;
+  border-top: 5px solid currentColor;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
   content: "";
 }
 
