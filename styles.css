@@ -411,7 +411,7 @@ main section[id] {
   padding: 22px 24px 18px;
 }
 
-.project-card:has(.project-link--card) {
+.project-card.project-card--linked {
   padding-bottom: 42px;
 }
 
