@@ -411,6 +411,10 @@ main section[id] {
   padding: 22px 24px 18px;
 }
 
+.project-card:has(.project-link--card) {
+  padding-bottom: 42px;
+}
+
 .project-card:has(.project-link):hover {
   border-color: var(--accent-line);
 }
